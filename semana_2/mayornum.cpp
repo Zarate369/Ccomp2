@@ -27,5 +27,5 @@ int main(){
             may= number2;
         }
     }
-    cout << "El mayor numerro es : " << may << endl;
+    cout << "El mayor numero es : " << may << endl;
 }
