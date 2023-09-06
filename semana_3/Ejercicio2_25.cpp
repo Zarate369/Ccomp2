@@ -30,6 +30,5 @@ int main(){
     else {
         cout << "El numero " << num2 << " no es multiplo de " << num3 << endl;
     }
-    
 
 }
