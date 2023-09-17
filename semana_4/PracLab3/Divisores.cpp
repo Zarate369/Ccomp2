@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    long num=33550336;
+    long num=8128;
     long sum=0;
     for(int i=1;i<=num;i++){
         if(num%i==0){
