@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std; 
-//Los teminos en la secuencia fibonacci no debe superar 4 000 000, encontrar la suma de pares
+//Los terminos en la secuencia fibonacci no debe superar 4 000 000, encontrar la suma de pares
 int main()
 {
 	
