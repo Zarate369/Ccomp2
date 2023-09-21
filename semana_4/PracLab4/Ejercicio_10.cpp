@@ -5,12 +5,10 @@ using namespace std;
 
 bool prim(long num ){
     int cont=0;
-    num=sqrt(num);
-    for (int i=1;i<=num;i++){
+    for (int i=1;i<=sqrt(num);i++){
         if(num%i==0){
             cont++;
         }
-        //num=sqrt(num);
     }
     if (cont==1){
         return 1;
@@ -22,9 +20,13 @@ bool prim(long num ){
 
 int main()
 {
-    long num = 23456789;
-    long sum=0;
+    unsigned long long sum=0;
     int cont;
-    
-    cout << "Suma: "  << prim(num);
+    for(int i=2 ;i<=2000000;i++){
+        if(prim(i)){
+            cout << i << endl;
+            sum = sum+i;
+        }
+    }
+    cout << "La suma es : "  << sum;
 }
